@@ -24,7 +24,9 @@ Install via composer
 $ composer require scheb/tombstone-analyzer
 ```
 
-Composer automatically creates an executable binary `vendor/bin/tombstone-analyzer`.
+Composer automatically creates an executable binary:
+* Versions below 0.4.0 `vendor/bin/tombstone`
+* Versions equal or greater than 0.4.0 `vendor/bin/tombstone-analyzer`
 
 Usage
 -----
