@@ -2,11 +2,11 @@ scheb/tombstone-analyzer
 ========================
 
 **Please note, that tombstone-analyzer is currently being reworked and versions >= 0.4.0 are very unstable. If you want
-to use it, use 0.3.0 or wait until there's a 1.0.0** 
+to use it, use 0.3.0 or wait until there's a 1.0.0**
 
-[![Build Status](https://travis-ci.org/scheb/tombstone-analyzer.svg?branch=master)](https://travis-ci.org/scheb/tombstone-analyzer)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/scheb/tombstone-analyzer/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/scheb/tombstone-analyzer/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/scheb/tombstone-analyzer/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/scheb/tombstone-analyzer/?branch=master)
+[![Build Status](https://travis-ci.org/scheb/tombstone-analyzer.svg?branch=0.x)](https://travis-ci.org/scheb/tombstone-analyzer)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/scheb/tombstone-analyzer/badges/quality-score.png?b=0.x)](https://scrutinizer-ci.com/g/scheb/tombstone-analyzer/?branch=0.x)
+[![Code Coverage](https://scrutinizer-ci.com/g/scheb/tombstone-analyzer/badges/coverage.png?b=0.x)](https://scrutinizer-ci.com/g/scheb/tombstone-analyzer/?branch=0.x)
 [![Latest Stable Version](https://poser.pugx.org/scheb/tombstone-analyzer/v/stable.svg)](https://packagist.org/packages/scheb/tombstone-analyzer)
 [![Total Downloads](https://poser.pugx.org/scheb/tombstone-analyzer/downloads)](https://packagist.org/packages/scheb/tombstone-analyzer)
 [![License](https://poser.pugx.org/scheb/tombstone-analyzer/license.svg)](https://packagist.org/packages/scheb/tombstone-analyzer)
@@ -49,7 +49,7 @@ Minimum configuration:
 ```yaml
 source:
     directories:
-        - src  
+        - src
 logs:
     directory: logs
 
@@ -85,7 +85,7 @@ logs:
 
     # Use the log file provider. This is where log files from AnalyzerLogHandler are located.
     directory: logs
-    
+
     # Use your own log provider. You have to configure the file and class name.
     # Has to implement Scheb\Tombstone\Analyzer\Log\LogReaderInterface
     custom:
