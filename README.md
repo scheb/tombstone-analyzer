@@ -1,15 +1,14 @@
 scheb/tombstone-analyzer
 ========================
 
-**Please note, that tombstone-analyzer is currently being reworked and versions >= 0.4.0 are very unstable. If you want
-to use it, use 0.3.0 or wait until there's a 1.0.0**
-
 [![Build Status](https://travis-ci.org/scheb/tombstone-analyzer.svg?branch=0.x)](https://travis-ci.org/scheb/tombstone-analyzer)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/scheb/tombstone-analyzer/badges/quality-score.png?b=0.x)](https://scrutinizer-ci.com/g/scheb/tombstone-analyzer/?branch=0.x)
 [![Code Coverage](https://scrutinizer-ci.com/g/scheb/tombstone-analyzer/badges/coverage.png?b=0.x)](https://scrutinizer-ci.com/g/scheb/tombstone-analyzer/?branch=0.x)
 [![Latest Stable Version](https://poser.pugx.org/scheb/tombstone-analyzer/v/stable.svg)](https://packagist.org/packages/scheb/tombstone-analyzer)
 [![Total Downloads](https://poser.pugx.org/scheb/tombstone-analyzer/downloads)](https://packagist.org/packages/scheb/tombstone-analyzer)
 [![License](https://poser.pugx.org/scheb/tombstone-analyzer/license.svg)](https://packagist.org/packages/scheb/tombstone-analyzer)
+
+⚠️ Version 0.x is no longer maintained. Please upgrade your project to a recent version.
 
 **Report generation** for the tombstones created with the [scheb/tombstone](https://github.com/scheb/tombstone) library.
 
