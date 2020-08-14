@@ -8,7 +8,7 @@ scheb/tombstone-analyzer
 [![Total Downloads](https://poser.pugx.org/scheb/tombstone-analyzer/downloads)](https://packagist.org/packages/scheb/tombstone-analyzer)
 [![License](https://poser.pugx.org/scheb/tombstone-analyzer/license.svg)](https://packagist.org/packages/scheb/tombstone-analyzer)
 
-⚠️ Version 0.x is no longer maintained. Please upgrade your project to a recent version.
+**⚠️ Version 0.x is no longer maintained. Please upgrade your project to a recent version.**
 
 **Report generation** for the tombstones created with the [scheb/tombstone](https://github.com/scheb/tombstone) library.
 
